@@ -32,7 +32,6 @@ set linespace=1
 set nobackup                	" Don't back up file.
 set undolevels=500
 set updatetime=500				" Similar to auto save.
-set virtualedit=block
 set wildmenu					" Command line completion is enhanced.
 set winaltkeys=no				" Disable ALT key for the GVIM application.
 set hidden          	        "Make the buffer hidden, instead of unload
@@ -63,7 +62,6 @@ set number              		" Display line number
 set display=lastline,uhex
 set ruler                		" Always show current position
 set cmdheight=2          		" The commandbar height
-"set scrolloff=999               " min # of line above and below cursor
 set showcmd              		" Show the command currently executing.
 set showmode             		" Show which mode you are in
 set showmatch            		" Show matching bracets when text indicator is over them
