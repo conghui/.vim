@@ -18,7 +18,10 @@ set history=70              	" The lines of history VIM has to remember
 set completeopt=menu,menuone,longest
 set complete-=i					" Not to include headers?
 set fillchars=vert:\|,fold:-
-set formatoptions+=rnmMw
+set formatoptions+=c  " auto-wrap comments using textwith, inserting the current comment leader automatically
+set formatoptions+=w  " Trailing white space indicates a paragraph continues in the next line.
+                      " A line that ends in a non-white character ends a paragraph.
+
 set guioptions+=eg
 set guioptions-=l               " No left-hand scrollbar
 set guioptions-=L               " No left-hand scrollbar always

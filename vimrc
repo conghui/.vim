@@ -28,6 +28,7 @@ Plugin 'derekwyatt/vim-fswitch'
 Plugin 'BufOnly.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-unimpaired'
 
 
 " All of your Plugins must be added before the following line
@@ -61,4 +62,3 @@ else
     call SourceScript(g:conf_path_unix . 'mapping.vim')
     call SourceScript(g:conf_path_unix . 'command.vim')
 endif
-
