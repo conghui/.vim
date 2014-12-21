@@ -5,9 +5,6 @@ inoremap    <c-v>   <c-o>:set paste<cr><c-r>+<c-o>:set nopaste<cr>
 xnoremap    <c-c>   "+y
 xnoremap    <c-x>   "+x
 
-" [Select all]
-nnoremap    <c-a>   ggVG
-
 " [Scroll up and down in Quickfix]
 nnoremap    <c-n>   :cn<cr>
 nnoremap    <c-p>   :cp<cr>
