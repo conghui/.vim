@@ -29,6 +29,7 @@ Plugin 'BufOnly.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'nacitar/terminalkeys.vim'
 
 
 " All of your Plugins must be added before the following line
