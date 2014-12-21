@@ -74,6 +74,7 @@ set wrap						        " Wrap the text
 set t_Co=256
 set hlsearch                " highlight search
 set encoding=utf-8
+set term=screen-256color
 colorscheme wombat256mod
 
 set laststatus=2 				" Always show the statusline
